@@ -6,12 +6,15 @@ import ExperienceSection from "@/components/ExperienceSection";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background text-foreground">
+    <div className="relative bg-background text-foreground">
       <NavBar />
-      <Hero />
-      <AboutSection />
-      <ProjectsSection />
-      <ExperienceSection />
-    </main>
+      
+      <main className="flex flex-col min-h-screen">
+        <Hero />
+        <AboutSection />
+        <ProjectsSection />
+        <ExperienceSection />
+      </main>
+    </div>
   );
 }

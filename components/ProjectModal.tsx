@@ -109,9 +109,6 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                                         isExternal
                                         color="primary" 
                                         size="lg"
-                                        variant="shadow"
-                                        className="w-full font-semibold text-white"
-                                        showAnchorIcon
                                     >
                                         View Source Code
                                     </Button>
